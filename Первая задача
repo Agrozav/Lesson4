@@ -1,0 +1,5 @@
+name = input('Enter your message in two words by the space ')
+if len(name) <=5:
+    print('Your message is too short ')
+else:
+    print(' {shotword}'.format(name,shotword = name[0,1:-2,-1] ))
