@@ -1,0 +1,7 @@
+dic = {}
+text = 'Hillel School'
+unique_letters = set(text)
+print('Количество символов в строке ',len(text))
+for letter in unique_letters:
+    dic[letter] = text.count(letter)
+print(dic)
